@@ -1,0 +1,10 @@
+name: Endymion
+description: Drupal 8 Starter Theme
+type: theme
+core: 8.x
+libraries:
+  - endymion/global-css
+  - endymion/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
