@@ -8,3 +8,9 @@ libraries:
 stylesheets-remove:
   - core/themes/stable/css/views/views.module.css
   - core/themes/stable/css/system/components/align.module.css
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
