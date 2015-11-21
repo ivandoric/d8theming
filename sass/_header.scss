@@ -1,0 +1,12 @@
+.main-header{
+    height:300px;
+    background:url(../images/hero.jpg) no-repeat center center;
+}
+
+.logo{
+    @include span(2);
+    
+    img{
+        max-width:100%;
+    }
+}
