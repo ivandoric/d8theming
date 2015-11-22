@@ -48,11 +48,10 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
 
-  <header role="banner">
-    {{ page.header }}
-  </header>
+{% include directory ~ '/partials/header.html.twig' %}
+
+<div class="container">
 
   {{ page.primary_menu }}
   {{ page.secondary_menu }}
