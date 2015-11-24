@@ -13,3 +13,25 @@ main{
 .layout-sidebar-second{
     @include span(2 last);
 }
+
+.article-list{
+    h3{
+        a{
+            color:#464646;
+            text-decoration: none;
+        }
+    }
+
+    p{
+        line-height:1.5;
+    }
+
+    .views-row{
+        margin:40px 0;
+    }
+
+    .views-field-view-node a{
+        color:red;
+        text-decoration: none;
+    }
+}
