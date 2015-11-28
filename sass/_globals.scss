@@ -20,6 +20,7 @@ body{
     -webkit-font-smoothing: antialiased;
     background:#fff;
     font-family: sans-serif;
+    margin-bottom: 500px;
 }
 
 *{
@@ -28,13 +29,6 @@ body{
 
 .container{
     @include container(1100px);
-}
-
-.director, .actors{
-    strong{
-        font-weight: bold;
-        font-size: 24px;
-    }
 }
 
 

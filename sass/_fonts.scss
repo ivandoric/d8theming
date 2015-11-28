@@ -236,11 +236,12 @@ h6,
 
 p {
   margin: auto auto 1.5em; /* bottom margin for paragraphs */
+  line-height: 1.5;
 }
 
 p + p {
-  text-indent: 1.5em; /* indent subsequent paragraphs */
-  margin-top: -1.5em; /* no top margin on subsequent paragraphs */
+  //text-indent: 1.5em; /* indent subsequent paragraphs */
+  //margin-top: -1.5em; /* no top margin on subsequent paragraphs */
 }
 
 
