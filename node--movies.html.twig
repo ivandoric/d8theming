@@ -1,6 +1,16 @@
-<div class="movie-poster">
-    {{content.field_movie_poster}}
-</div>
+{{ kint(content.field_show_poster_['#items'].getValue())}}
+
+{% for actor in content.field_actors['#items'].getValue() %}
+    {{actor.value}}<br>
+{% endfor %}
+
+{% if content.field_show_poster_['#items'].getValue()|first.value == "1" %}
+    <div class="movie-poster">
+        {{content.field_movie_poster}}
+    </div>
+{% else %}
+    <h3>I don't want you to see Movie Poster</h3>
+{% endif %}
 
 <div class="director">
     {{content.field_director}}
