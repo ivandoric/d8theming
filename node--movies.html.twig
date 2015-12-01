@@ -1,5 +1,3 @@
-{{ kint(content.field_show_poster_['#items'].getValue())}}
-
 {% for actor in content.field_actors['#items'].getValue() %}
     {{actor.value}}<br>
 {% endfor %}
@@ -22,6 +20,9 @@
 </div>
 <br>
 <br>
+<div class="premieres">
+    {{content.field_premeires}}
+</div>
 <div class="movie-description">
     {{content.body}}
 </div>
