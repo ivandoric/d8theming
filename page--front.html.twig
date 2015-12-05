@@ -13,15 +13,14 @@
     {% if page.sidebar %}
       <aside class="layout-sidebar-first" role="complementary">
         {{ page.sidebar }}
+        {{ page.latest_movies }}
       </aside>
     {% endif %}
 
   </main>
 
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endif %}
-
 </div>{# /.layout-container #}
+
+{% include directory ~ '/partials/footer.html.twig' %}
+
+
