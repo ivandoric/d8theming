@@ -32,7 +32,7 @@
     {% if menu_level == 0 %}
       <ul{{ attributes.addClass('menu') }}>
     {% else %}
-      <ul>
+      <ul class="sub-menu">
     {% endif %}
     {% for item in items %}
       <li{{ item.attributes }}>
